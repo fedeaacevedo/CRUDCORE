@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDCORE", "CRUDCORE\CRUDCORE.csproj", "{CE764563-904F-45E5-8BF6-49B236E726BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE764563-904F-45E5-8BF6-49B236E726BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE764563-904F-45E5-8BF6-49B236E726BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE764563-904F-45E5-8BF6-49B236E726BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE764563-904F-45E5-8BF6-49B236E726BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40C4723E-362E-4DD8-A862-A1D4CFCAEF79}
+	EndGlobalSection
+EndGlobal
