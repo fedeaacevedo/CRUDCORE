@@ -21,9 +21,19 @@ namespace CRUDCORE.Controllers
             //SOLO DEVUELVE LA VISTA
             return View();
         }
-        public IActionResult Guardar()
+
+        [HttpPost]
+        public IActionResult Guardar(ContactoModel oContacto)
         {
             //LO RECIBE Y GUARDA EN LA BASE DE DATOS
+
+            var respuesta = _ContactoDatos.Guardar(oContacto);
+
+            if (respuesta)
+                return RedirectToAction("Listar");
+            else
+                return View();
+
             return View();
         }
     }
